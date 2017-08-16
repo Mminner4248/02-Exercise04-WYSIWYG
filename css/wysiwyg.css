@@ -1,0 +1,69 @@
+body {
+	background-image: url("/imgs/Hiroshige.jpg");
+}
+
+.divBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	margin: 1em auto;
+}
+
+.card {
+	max-width: 30%;
+	min-width: 300px;
+	max-height: 400px;
+	background-color: tan;
+	padding-bottom: .3em;
+	color: black;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.75);
+	margin: 1em auto;
+    position:relative
+}
+
+.card:nth-child(odd){
+background: lightblue;
+}
+
+.card:nth-child(even){
+background: lightyellow;	
+}
+
+.card-images {
+    max-width: 100%;
+	height:200px;
+	padding-left: 60px;
+}
+
+.card-header {
+	text-align:center;
+	margin-top: 2%;
+}
+
+.card-section {
+	padding: .3em;
+}
+
+.textBox {
+	margin:5% 0 0 30%;
+}
+
+.personStyle {
+	border: 5px black dotted;
+}
+
+.Even {
+	background: lightyellow;
+}
+
+.Odd {
+	background: lightblue;
+}
+
+.selected {
+	border: 2px dotted black;
+}
